@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<main>
 <head>
 	<meta charset="utf-8">
 	<link rel="icon" href="images/E.jpg">
@@ -7,28 +8,26 @@
 </head>
 <body>
 	<!-- All code that powers my site goes here -->
-<section class="contents" id="contents">
 	<nav>
-		<a href="home.html">Home</a>
+		<a href="index.html">Home</a>
 		<a href="socials.html">Social Media</a>
 		<a href="contact.html">Contact Me</a>
 		<a href="https://docs.google.com/document/d/1BHlrUhNwTMOt5dDATRkFFRk06FJeg5mqM64cwyKdgGk/edit?usp=sharing">Resume</a>
 	</nav>
-</section>
 
 <form action="submission.html" method="post">
 	<section class="info" id="info">
 	<label for="name">Name</label>
 		<br>
-		<textarea class="name" name="name" id="name" placeholder="enter your name..." required></textarea>
+		<input type="text" class="name" name="name" id="name" placeholder="Enter your name..." pattern="[a-zA-Z]+" required>
 		<br>
 	<label for="email">Email Address</label>
 		<br>
-		<textarea class="email" name="email" id="email" placeholder="enter your email address..." required></textarea>
+		<input type="text" class="email" name="email" id="email" placeholder="Enter your email address..." pattern="[a-zA-Z0-9@.]+" required>
 		<br>
 	<label for="message">Message</label>
 		<br>
-		<textarea class="message" name="message" id="message" placeholder="Leave a nice message for me :D" required></textarea>
+		<textarea class="message" name="message" id="message" placeholder="Leave a nice message for me :D" required minlength="1" maxlength="500" height="200" width="400"></textarea>
 		<br>
 	</section>
 
@@ -40,4 +39,5 @@
 <footer>
 	
 </footer>
+</main>
 </html>
