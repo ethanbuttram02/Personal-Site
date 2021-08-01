@@ -1,0 +1,88 @@
+/*nav is constant throughout all pages*/
+
+nav {
+	font-family:Montserrat;
+	font-size:150%;
+	text-align:center;
+	margin-top:2%;
+}
+
+.home {
+	padding-right:35px;
+	text-decoration:none;
+}
+.home:link, .home:visited{
+	color:black;
+	opacity:100%;
+}
+.home:hover {
+	opacity:60%;
+}
+
+
+.socials {
+	padding-right:35px;
+	text-decoration:none;
+}
+.socials:link, .socials:visited{
+	color:black;
+	opacity:100%;
+}
+.socials:hover {
+	opacity:60%;
+}
+
+
+.contact {
+	padding-right:35px;
+	text-decoration:none;
+}	
+.contact:link, .contact:visited{
+	color:black;
+	opacity:100%;
+}
+.contact:hover {
+	opacity:60%;
+}
+
+
+.resume {
+	text-decoration:none;
+}
+.resume:link, .resume:visited{
+	color:black;
+	opacity:100%;
+}
+.resume:hover {
+	opacity:60%;
+}
+
+/*Below is code for index.html*/
+
+.indexbody {
+	background-color:Lightgrey;
+}
+
+footer {
+	font-family:Montserrat;
+ }
+
+.thumbsup {
+	width:25%;
+	height:25%;
+	display:block;
+	object-fit:cover;
+  	border-radius:50%;
+  	margin:auto;
+  	margin-top:3%;
+
+ }
+
+.bio {
+	margin-top:3%;
+	font-size:187.5%;
+}
+
+/*below is code for socials.html*/
+
+/*below is code for contact.html*/
