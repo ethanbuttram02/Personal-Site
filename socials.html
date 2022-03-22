@@ -3,29 +3,33 @@
 <main>
 <head>
 	<meta charset="utf-8">
-	<title>Social Media</title>
+	<meta id="meta-viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2.5">
+	<title>Ethan Buttram</title>
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	<link rel="stylesheet" href="CSS/style.css">
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="socialbody">
-	<!-- All code that powers my site goes here -->
-	<nav>
-		<a class="home" href="index.html">Home</a>
-		<a class="socials" href="socials.html">Social Media</a>
-		<a class="resume" href="https://docs.google.com/document/d/1BHlrUhNwTMOt5dDATRkFFRk06FJeg5mqM64cwyKdgGk/edit?usp=sharing" target="_blank">Resume</a>
-	</nav>
-	<p class="follow">Visit my Socials!</p>
-	
+<body>
+	<div class="min-h-screen bg-center bg-fixed bg-auto" style="background-image: url(images/bg-img.jpg)">
+		<!-- top menu bar. -->
+		<div style="background-color:#06491cbc" class="fixed w-full scale-100 text-2xl text-center font-bold py-5 z-10 text-gray-100">
+			<a class="hover:opacity-70 px-5" href="index.html">Home</a>
+			<a class="hover:opacity-70 pr-5" href="socials.html">Socials</a>
+			<a class="hover:opacity-70 pr-5" href="https://docs.google.com/document/d/1BHlrUhNwTMOt5dDATRkFFRk06FJeg5mqM64cwyKdgGk/edit?usp=sharing" target="_blank">Resume</a>
+ 			<a class="hover:opacity-70" href="https://github.com/ethanbuttram02/Personal-Site" target="_blank">Website Code</a>
+		</div>
+
+		<!-- container with social links -->
+		<div class="flex flex-row justify-center pt-96">
+			<a class="instalink" target="_blank" href="https://www.instagram.com/that_ethan_/">
+				<img class="w-64 rounded-full" src="images/instalogo.png"></a>
+			<a class="linkedlink" target="_blank" href="https://www.linkedin.com/in/ethanbuttram">
+				<img class="w-64 rounded-full" src="images/linkedinlogo.png"></a>
+			<a class="gitlink" target="_blank" href="https://github.com/ethanbuttram02">
+				<img class="w-64 rounded-full" src="images/githublogo.png"></a>
+		</div>
 </body>
-<footer class="socialfooter">
-	<a class="instalink" target="_blank" href="https://www.instagram.com/that_ethan_/">
-		<img class="insta" src="images/instalogo.png"></a>
-	<a class="linkedinlink" target="_blank" href="https://www.linkedin.com/in/ethanbuttram">
-		<img class="linkedin" src="images/linkedinlogo.png"></a>
-	<a class="githublink" target="_blank" href="https://github.com/ethanbuttram02">
-		<img class="github" src="images/githublogo.png"></a>
-</footer>
 </main>
 </html>

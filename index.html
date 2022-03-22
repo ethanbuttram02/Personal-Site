@@ -3,23 +3,41 @@
 <main>
 <head>
 	<meta charset="utf-8">
+	<meta id="meta-viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2.5">
 	<title>Ethan Buttram</title>
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	<link rel="stylesheet" href="CSS/style.css">
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="indexbody">
-	<!-- All code that powers my site goes here -->
-	<nav>
-		<a class="home" href="index.html">Home</a>
-		<a class="socials" href="socials.html">Social Media</a>
-		<a class="resume" href="https://docs.google.com/document/d/1BHlrUhNwTMOt5dDATRkFFRk06FJeg5mqM64cwyKdgGk/edit?usp=sharing" target="_blank">Resume</a>
-	</nav>
+
+<body>
+	<div class="min-h-screen bg-center bg-fixed bg-auto" style="background-image: url(images/bg-img.jpg)">
+		<!-- top menu bar. -->
+		<div style="background-color:#06491cbc" class="fixed w-full scale-100 text-2xl text-center font-bold py-5 z-10 text-gray-100">
+			<a class="hover:opacity-70 px-5" href="index.html">Home</a>
+			<a class="hover:opacity-70 pr-5" href="socials.html">Socials</a>
+			<a class="hover:opacity-70 pr-5" href="https://docs.google.com/document/d/1BHlrUhNwTMOt5dDATRkFFRk06FJeg5mqM64cwyKdgGk/edit?usp=sharing" target="_blank">Resume</a>
+ 			<a class="hover:opacity-70" href="https://github.com/ethanbuttram02/Personal-Site" target="_blank">Website Code</a>
+		</div>
+
+		<!-- Main container with main site info -->
+		<div class="flex justify-center pt-64"><img class="rounded-full w-80"src="images/ethan.PNG"></img></div>
+		<div class="w-auto mx-auto text-xl pt-10 px-5"><p style="background-color: #8f8f8f88" class="rounded-lg px-5 text-center">
+			My name is Ethan Buttram!<br>
+			I am a computer Engineering student passionate about computer software and hardware development.
+			Here you can find my resume, projects, and other fun stuff I put up on here!
+		</p>
+			
+		</div>
+
+		<!-- Social Media Container -->
+		<div>
+
+		</div>
+
+	</div>
 </body>
-<footer>
-	<img class="thumbsup" src="images/ethanthumbsup.jpg">
-	<p class="bio">I am Ethan Buttram. A computer engineering student, at Cal Poly San Luis Obispo, passionate about computer hardware and software development. Contact me through my social media.</p>
-</footer>
 </main>
 </html>
