@@ -1,5 +1,5 @@
 # Personal-Site
-I set a goal for myself in June after high school got out that I wanted to learn some more code. And I decided on HTML/CSS/JS
+I set a goal for myself in June after the 2020-21 school year got out that I wanted to learn some more code. And I decided on HTML/CSS/JS
 
 I wanted to keep my Python fresh but that did not go well, and I decided that I wanted to have a functioning website
 up and running by the time school got back in session (approx mid september). So here is where I will be posting my
